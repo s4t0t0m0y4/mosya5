@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Raleway';
+}
+
+header h1 {
+    width: 109px;
+}
+
+/* responsive */
+@media (max-width: 896px) {
+
+}

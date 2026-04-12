@@ -6,8 +6,20 @@ a {
     text-decoration: none;
 }
 
+ul {
+    display: flex;
+}
+
 li {
     list-style: none;
+    font-size: 12px;
+}
+
+nav {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 img {
@@ -15,11 +27,41 @@ img {
 }
 
 body {
-    font-family: 'Raleway';
+    font-family: "Raleway";
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 800px;
+    padding-top: 50px;
+    display: flex;
+}
+
+header {
+    height: 142px;
+    border-bottom: 1px solid #c3c3c3;
 }
 
 header h1 {
     width: 109px;
+    padding: 35px 0 13px 0;
+    margin: 0 auto;
+}
+
+.nav-left {
+    padding-left: 0;
+    gap: 14px;
+}
+
+.nav-right {
+    padding-right: 0;
+    gap: 14px;
+}
+
+li a {
+    color: #333333;
 }
 
 /* responsive */

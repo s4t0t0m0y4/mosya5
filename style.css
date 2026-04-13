@@ -28,6 +28,7 @@ img {
 
 body {
     font-family: "Raleway";
+    color: #333333;
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
@@ -37,6 +38,7 @@ main {
     max-width: 800px;
     padding-top: 50px;
     display: flex;
+    margin: 0 auto;
 }
 
 header {
@@ -62,6 +64,40 @@ header h1 {
 
 li a {
     color: #333333;
+}
+
+.main-left {
+    padding-left: 0;
+    width: 400px;
+}
+
+.main-right {
+    padding-right: 0;
+    margin-left: 60px;
+    width: 340px;
+    border-top: 1px solid #c3c3c3;
+    font-size: 12px;
+}
+
+.main-right h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #c3c3c3;
+    padding-top: 6px;
+    padding-bottom: 19.5px;
+}
+
+.txt {
+    font-weight: 500;
+    padding-top: 7px;
+    line-height: 22.8px;
+}
+
+.price {
+    padding-top: 20px;
+}
+
+span {
+    font-weight: 500;
 }
 
 /* responsive */

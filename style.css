@@ -94,10 +94,48 @@ li a {
 
 .price {
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 span {
     font-weight: 500;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    height: 136px;
+}
+
+th, td {
+    border: 1px solid #c3c3c3;
+    font-weight: 420;
+}
+
+select {
+    width: 184px;
+    background-color: white;
+    border: 1px solid #c3c3c3;
+    font-family: "Raleway";
+}
+
+.table1 tr:first-child th, 
+.table1 tr:first-child td {
+    border-top: none;
+}
+
+.table1 tr:last-child td {
+    border-bottom: none;
+}
+
+.table1 th:first-child,
+.table1 td:first-child {
+    border-left: none;
+}
+
+.table1 th:last-child,
+.table1 td:last-child {
+    border-right: none;
 }
 
 /* responsive */

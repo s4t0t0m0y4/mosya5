@@ -68,7 +68,7 @@ li a {
 
 .main-left {
     padding-left: 0;
-    width: 400px;
+    max-width: 400px;
 }
 
 .main-right {
@@ -191,5 +191,26 @@ footer {
 
 /* responsive */
 @media (max-width: 896px) {
+    nav {
+        overflow-x: auto;
+        padding: 0 35px;
+    }
 
+    main {
+        flex-direction: column;
+    }
+
+    header {
+        border-bottom: none;
+        margin-bottom: -50px;
+    }
+
+    .main-left {
+        max-width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .main-right {
+        margin: 0 auto;
+    }
 }
